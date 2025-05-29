@@ -59,6 +59,45 @@
             font-style: italic;
             margin-bottom: 30px;
         }
+        .contact-links {
+            display: flex;
+            gap: 20px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+        .contact-link {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 15px;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            text-decoration: none;
+            color: #333;
+            transition: all 0.2s ease;
+        }
+        .contact-link:hover {
+            background: #f0f7ff;
+            border-color: #4285f4;
+            transform: translateY(-1px);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            text-decoration: none;
+        }
+        .icon {
+            font-size: 16px;
+            width: 16px;
+            height: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .email-icon {
+            color: #ea4335;
+        }
+        .linkedin-icon {
+            color: #0077b5;
+        }
     </style>
 </head>
 <body>
@@ -67,7 +106,7 @@
         <h2>Screenshot Editor Chrome Extension</h2>
         
         <div class="last-updated">
-            <strong>Last Updated:</strong> December 2024
+            <strong>Last Updated:</strong> January 2025
         </div>
 
         <div class="highlight">
@@ -153,18 +192,27 @@
         <p>This extension complies with GDPR, CCPA, and other international privacy regulations by design, as no personal data is collected or processed.</p>
 
         <div class="contact-info">
-            <h2>10. Contact Information</h2>
+            <h2>Contact Information</h2>
             <p><strong>Developer:</strong> Ravi Nain</p>
-            <p><strong>Email:</strong> <a href="mailto:ravinain100@gmail.com">ravinain100@gmail.com</a></p>
-            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ravi-nain-2029691a0" target="_blank">linkedin.com/in/ravi-nain-2029691a0</a></p>
             
-            <p>For any privacy-related questions, concerns, or requests, please contact us using the information above. We will respond to all legitimate inquiries within 48 hours.</p>
+            <div class="contact-links">
+                <a href="mailto:ravinain100@gmail.com" class="contact-link">
+                    <span class="icon email-icon">✉</span>
+                    <span>ravinain100@gmail.com</span>
+                </a>
+                <a href="https://www.linkedin.com/in/ravi-nain-2029691a0" target="_blank" class="contact-link">
+                    <span class="icon linkedin-icon">💼</span>
+                    <span>LinkedIn Profile</span>
+                </a>
+            </div>
+            
+            <p style="margin-top: 15px;">For any privacy-related questions, concerns, or requests, please contact us using the information above. We will respond to all legitimate inquiries within 48 hours.</p>
         </div>
 
         <hr style="margin: 40px 0; border: none; border-top: 1px solid #eee;">
         
         <p style="text-align: center; color: #666; font-size: 14px;">
-            © 2024 Screenshot Editor Chrome Extension. All rights reserved.
+            © 2025 Screenshot Editor Chrome Extension. All rights reserved.
         </p>
     </div>
 </body>
